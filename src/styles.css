@@ -3,9 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root
 {
+  display: inline-block;
+  box-sizing: border-box;
   width: 400px;
   height: 600px;
   font-family: 'Roboto', sans-serif;
@@ -41,7 +42,6 @@
   --background : #333;
   --text: #F5F5F5;
 }
-
 
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,0 +1,47 @@
+.main{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--background);
+  /* padding: rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  max-width: 400px;
+  min-width: 400px;
+}
+
+.img{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.flex-item-row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flex-cursor{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.span1{
+  font-style: italic;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: black;
+}
+
+.span2{
+  font-size: 1.25rem;
+  color: var(--primary-500);
+  font-weight: 700;
+}
